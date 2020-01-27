@@ -1,0 +1,31 @@
+I work for a company that makes academic maths papers 
+easier to read. Our product does this by scanning through 
+the maths paper, looking for sums. Then, it extracts those 
+sums as strings. Then, it evaluates those sums. Then, it 
+spits out the original sum string along with the evaluated 
+result. We're looking to move to a more modern tech stack 
+and we'd like you to build us a prototype of this system, 
+a kind of "string calculator".
+
+"1 + 1"
+1 + 1
+Scan paper for +,-,/,*
+Return evaluation and input string in array
+
+Class Calculator
+
+Has an array
+
+Separate Sum class?
+
+
+Methods - 
+
+Scan(paper) - find one sum and stop - Paper.scan (/[+-*/]?/)
+Put input string in array
+Addition
+Substraction
+Division
+Multiplication
+Put evaluation in array
+Return array (automatic?)
